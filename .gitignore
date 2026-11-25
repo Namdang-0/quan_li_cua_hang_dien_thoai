@@ -1,0 +1,7 @@
+target/
+config/db.properties
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db

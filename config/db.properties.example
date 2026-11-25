@@ -1,0 +1,10 @@
+# Copy this file to config/db.properties and edit the connection details.
+# SQL Server default instance using TCP port 1433:
+db.url=jdbc:sqlserver://localhost:1433;databaseName=QLCuaHangDienThoai;encrypt=true;trustServerCertificate=true;loginTimeout=5;
+db.user=sa
+db.password=CHANGE_ME
+
+# SQL Server Express example (comment the 3 lines above and use these instead):
+# db.url=jdbc:sqlserver://localhost;instanceName=SQLEXPRESS;databaseName=QLCuaHangDienThoai;encrypt=true;trustServerCertificate=true;loginTimeout=5;
+# db.user=sa
+# db.password=CHANGE_ME
